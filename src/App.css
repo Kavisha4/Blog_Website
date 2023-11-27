@@ -1,0 +1,58 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.content {
+  margin: 20px;
+}
+
+.home {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.blog-list {
+  margin-top: 20px;
+}
+
+.blog-preview {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.blog-preview h2 {
+  color: #333;
+}
+
+.blog-preview p {
+  color: #777;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #555;
+}
